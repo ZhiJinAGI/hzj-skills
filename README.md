@@ -33,41 +33,9 @@ ZhiJinAGI 维护的 AI Agent Skills 集合。
 
 ## 安装
 
-本仓库采用常见的 Agent Skills 目录结构。不同客户端的 Skill 加载位置可能不同，下面以 `~/.agents/skills/` 为例：
-
-```bash
-git clone https://github.com/ZhiJinAGI/hzj-skills.git
-mkdir -p ~/.agents/skills
-cp -R hzj-skills/hzj-influence ~/.agents/skills/
-```
-
-安装后，请重新加载或重启你的 Agent 客户端。如果目标目录里已有同名 Skill，请先确认版本，避免误覆盖。
-
-## 仓库结构
+把下面的仓库链接发给 WorkBuddy、Codex、Claude Code 等智能体，让它帮你安装需要的 Skill：
 
 ```text
-hzj-skills/
-├── README.md
-└── hzj-influence/
-    ├── SKILL.md
-    └── references/
-        ├── principles.md
-        └── scenarios.md
+请帮我安装这个仓库里的 hzj-influence Skill：
+https://github.com/ZhiJinAGI/hzj-skills
 ```
-
-- `SKILL.md`：定义 Skill 的触发条件、工作流程、输出要求和使用边界。
-- `references/`：存放按需读取的原则、案例和场景资料。
-
-## 新增 Skill 的约定
-
-每个新 Skill 至少应包含：
-
-1. 独立目录和一份 `SKILL.md`。
-2. 清楚的名称、用途和明确触发方式。
-3. 可执行的工作流程，而不只是知识摘要。
-4. 必要的风险边界与拒绝条件。
-5. README 清单中的一条对应记录。
-
-## 许可
-
-本仓库目前尚未添加开源许可证。公开可见不等于已授权自由复制、改编或商业使用。
