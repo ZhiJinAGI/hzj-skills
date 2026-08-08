@@ -43,7 +43,7 @@ ZhiJinAGI 维护的 AI Agent Skills 集合。
 使用时请明确点名 Skill，并提供产品、目标用户、主要竞争对手和当前困惑，例如：
 
 ```text
-使用 hzj-positioning，分析正正苗应该在家长心里占据什么位置。
+使用 hzj-positioning，分析一个新开的社区咖啡品牌，应该在周边上班族心里占据什么位置。
 ```
 
 ## 安装
